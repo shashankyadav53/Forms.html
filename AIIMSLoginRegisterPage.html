@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiims Registration Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        header{
+            background-color:rgb(77, 117, 239);
+            margin-left:-8px;
+            margin-right: -8px;
+            margin-top:-8px;
+            position: fixed;
+            width: 100%;
+            height: 70px;
+           
+        }
+        header div{
+            display: inline-flex;
+            align-items: center;
+            width: 100%;
+            height: 40px;
+            background-color:aliceblue;
+            margin-top:5px;  
+        }
+        header div img{
+        margin-left: 100px;
+        /* margin-top: 5px; */
+        height: 40px;
+       }
+       header div h2{
+       margin-left: 5px;
+       font-style: oblique;
+       font-size: medium;
+       }
+       
+        span{
+            text-align: right;
+            
+        }
+       span h3{
+            color: #ffca00; 
+            font-weight: bold; 
+            font-size: 15px;  
+            margin-right:250px;
+            margin-top: -5px;
+       }
+       #Main{
+            border:4px solid gray;
+            border-radius: 2px;
+            width: 80%;
+            margin-right: 10%;
+       }
+       #Main .main1{
+            background-color:white;
+            height: 30px;
+            margin-top: -24px;
+       }
+       #Main .main1 h4{
+            color: darkred;
+            font-size: large;
+            text-align: center;
+            padding-top: 5px;
+       }
+       #Main .main2{
+            background-color:rgb(119, 206, 240);
+            height: 40px;
+            margin-top: -32px
+       }
+       #Main .main2 h4{
+            color: white;
+            text-align: center;
+            font-weight: 300;
+            font-size: x-large;
+            padding-top: 5px;
+       }
+       /* #Main .main3{
+            border: 1px dotted red;
+       } */
+       #Main .main3 h4{
+            text-align: center;
+            margin-top: 10px;
+            color: #5d5a5a;
+       }
+       #Main .main3 h4 .bt1{
+            color: red;
+            font-weight: bold;
+            border-radius: 4px;
+            border-color: blue;
+       }
+       #Main #main30{
+            display: flex;
+            justify-content: center;
+        
+       }
+       #Main #main30 .regmain30{
+            background-color: #afdaf6;
+            margin-left: 15px;
+            margin-right: 15px;
+            border-radius: 20px;
+            width: 50%;  
+           
+       }
+       #Main #main30 .login31 {
+            background-color: #afdaf6;
+            margin-right: 15px;
+            margin-left: 15px;
+            border-radius: 20px;
+            width: 50%; 
+          
+       }
+       #Main #main30 .regmain30 h3{
+            color: darkblue;
+            font-weight: 300;
+            font-size: x-large;
+            margin-left: 15px;
+       }
+       #Main #main30 .regmain30 h5{
+            color: black;
+            font-weight: 700;
+            margin-top: -30px;
+            margin-left: 15px;
+       }
+       #Main #main30 .regmain30 .btt{
+            margin-left: 150px;
+            margin-top: -10px;  
+       }
+       #Main #main30 .regmain30 .btt input{
+            color:black;
+            font-weight: bold;
+            border-radius: 4px;
+            border-color: blue;
+            font-size: 20px; 
+       }   
+            
+       #Main #main30 .regmain30 .regmain300{
+            background-color: rgb(224, 243, 251);
+            height: 60px;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+       }
+       #Main #main30 .regmain30 .regmain300 .reg300{
+            margin-left: 5px;
+            /* display: flex; */
+            
+       }
+       /* #Main #main30 .regmain30 .regmain300 .reg300 .reg3000 h5{
+            margin-left: 20px;
+       } */
+       .main3 .login31 h3{
+            color: darkblue;
+            font-weight: 300;
+            font-size: x-large;
+            margin-left: 15px; 
+       }
+       .main3 .login31 h5{
+            color: black;
+            font-weight: 700;
+            margin-top: -30px;
+            margin-left: 15px;
+       }
+       .main3 .login31 table{
+            margin-left: 30px;
+            margin-top: -10px;
+            
+       }
+       .main3 .login31 .login311 .log{
+            margin-left: 60px;
+            margin-top: 10px;
+            color:white;
+            background-color: rgb(15, 57, 141);
+            font-weight: 300;
+            font-size: large;
+            border-radius: 5px;
+       }
+       .main3 .login31 .login311 a{
+            text-decoration: none;
+            font: bold;
+        }
+        #Main #main4{
+            border: 2px solid rgb(176, 175, 175);
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            border-radius: 20px;
+        }
+        #Main #main4 .main40{
+            background-color: rgb(40, 125, 177);
+            height: 40px;
+            margin-top: -24.5px;
+            margin-left: -1px;
+            margin-right: -1px;
+            border-radius: 20px;
+        }
+        #Main #main4 .main40 h4{
+            text-align: center;
+            padding-top: 10px;
+            color: white;
+            font-weight: 700;
+            font-size: large;
+        }
+        #Main #main4 .main400{
+            background-color:rgb(247, 247, 101);
+            height: 70px;
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-bottom: 50px;
+        }
+        #Main #main4 .main400 h5{
+            color: red;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 5px;
+            font-weight: 300;
+            font-size: medium;
+        }
+        
+        #footer h4{
+            margin-left: 30%;
+            margin-right: 30%;
+            color: black;
+            margin-top: 0.5%;
+            font-size: medium;
+        } 
+        #FormBody{
+            /* border: 4px solid black; */
+            display: flex;
+            padding-top: 80px;
+        }
+        #LeftMain{
+            /* border: 2px solid red; */
+            width: 30%;
+           
+        }
+        #LeftMain #left1{
+            margin-left: 40%;
+            margin-right: 20px;
+           
+        }
+        #LeftMain #left1 #left11 h4{
+            background-color: rgb(57, 133, 220);
+            height: 25px;
+            font-weight: 300;
+            font-size: medium;
+            color: white;
+            padding-top: 5px;
+            padding-left: 5px;
+           
+        }
+        #LeftMain #left1 #left111 a{
+            text-decoration: none;
+            font-weight: 300;
+            font-size: medium;
+            color: rgb(20, 123, 234);
+            font: bold;
+        }
+    </style>
+</head>
+<body>
+    <form action=""> 
+            <header>
+                <div >
+                    <img src="http://norcet5.aiimsexams.ac.in/Images/CollegeLogo.jpg" height="40" width="40">
+                    <h2>All India Institute Of Medical Sciences</h2>
+                </div>
+                <span>
+                    <h3>Toll Free Number: 1800117898,(Timings: 9:30 AM to 5:00 PM - Monday to Friday & 09:30 AM to 01:00 PM - Saturday)</h3>
+                </span>
+            </header>
+
+        <div id="FormBody"> 
+            
+            <div id="LeftMain">
+                <div id="left1">
+                        <div id="left11">
+                            <h4>General Links..!</h4>
+                        </div>
+                        <div id="left111">
+                            <a href="#">Home</a><br>
+                            <a href="#">Notification</a><br>
+                            <a href="#">Advertisement</a><br>
+                            <a href="#">Introduction</a><br>
+                            <a href="#">Upload Image Instructions</a><br>
+                            <a href="#"> Registration/Login</a><br>
+                        </div>
+                </div>
+            </div>
+
+
+            <div id="Main">
+                    <div class="main1">
+                        <h4>Nursing Officer Recruitment Common Eligibility Test (NORCET-5)</h4>
+                    </div>
+                     
+                    <div class="main2">
+                        <h4>Welcome To The Login Page</h4>
+                    </div>
+
+                    <div class="main3">
+                        <h4>If You have already registered, then kindly enter Candidate ID & Password for login,<br>
+                            else click on <button class="bt1">Click Here</button> Button for login credentials.</h4>
+
+                            <div id="main30">
+                                    <div class="regmain30">
+                                      <h3>New Registration</h3><br>
+                                      <h5>If you have read the Advertisement carefully and not registered yet,<br> 
+                                          then kindly register first by clicking the button given below.</h5>
+
+                                        <div class="btt">
+                                          <a href="NORCETAiimsRegistrationFrom.html" target="_blank"><input type="button" value="Click Here"></a>  
+                                        </div>
+                                      
+                                                
+                                         <div class="regmain300">
+                                            <div class="reg300">
+                                              <img src="http://norcet5.aiimsexams.ac.in/Images/Information.png" height="50" width="50" >
+                                            </div>
+
+                                                <div class="reg3000">
+                                                     <!-- <h5>Compatible Browsers:<br>It is recomended that use Internet Explorer 9 and above,<br>
+                                                        Firefox 3.5 and above and Google Chrome for best view <br>and functionality.</h5> -->
+                                                 </div>
+                                            </div>
+                                    </div>
+
+                                    <div class="login31">
+                                        <h3>Applicant Login</h3><br>
+                                        <h5>If you have already registered, then kindly enter Candidate ID &<br> Password.</h5>
+
+                                        <table>
+                                            <tr>
+                                                <td>Candidate ID:</td>
+                                                <td><input type="text" placeholder="Enter Candidate ID"></td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>Password:</td>
+                                                <td><input type="password" placeholder="Enter Your Password:"></td>
+                                            </tr>
+                                        </table>
+
+                                            <div class="login311">
+                                                    <button class="log">Login</button>
+                                                    <a href="Forgot your login details?" >Forgot your login details?</a>
+                                            </div>
+
+                                    </div>
+
+                            </div>
+                    </div>
+
+                    <div id="main4">
+                            <div class="main40">
+                                    <h4>Important Announcement</h4>
+                            </div>
+
+                            <div class="main400">
+                                <h5>if fee amount has been deducted from your account and updated status not reflecting 
+                                    on your portal, please wait for 24 hours to getting updated status.</h5>
+                            </div>
+                    </div>
+            </div>
+        </div>
+           <div id="footer">
+              <h4><hr>Copyright @ All India Institute of Medical Sciences, New Delhi. All rights Reserved<hr></h4>
+            </div>
+
+            
+    </form>  
+</body>
+</html>

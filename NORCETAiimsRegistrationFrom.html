@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiims Registration Page</title>
+    <style>
+        header{
+            background-color:rgb(77, 117, 239);
+            margin-left:-8px;
+            margin-right: -8px;
+            margin-top:-8px;
+            position: fixed;
+            width: 100%;
+            height: 80px;
+        }
+        header div{
+            display: inline-flex;
+            align-items: center;
+            width: 100%;
+            height: 40px;;
+            background-color:aliceblue;
+            margin-top:5px;  
+        }
+        header div img{
+        margin-left: 100px;
+        /* margin-top: 5px; */
+        height: 40px;
+       }
+       header div h2{
+       margin-left: 5px;
+       font-style: oblique;
+       font-size: medium;
+       }
+       
+        span{
+            text-align: right;
+            
+        }
+       span h3{
+            color: #ffca00; 
+            font-weight: bold; 
+            font-size: 15px;  
+            margin-right:250px;
+            margin-top: -5px;
+      
+       }
+      #Main{
+            border: 4px solid rgb(128, 128, 128);
+            border-radius: 4px;
+            margin-left: 20%;
+            margin-right: 10%; 
+           
+       }
+      #Main #main1{
+            background-color:rgb(107, 140, 238);
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 30px;
+            border-radius: 5px;
+      }
+       #Main #main1 .main1 h4{
+           margin-top: 5px;
+           margin-left: 10px;
+           color: white;
+       }
+       #Main #main1 .main11 h5{
+           float: right;
+           margin-top:-35px;
+           margin-right: 5px;
+           font-size: medium;
+           color: yellow;
+        
+       }
+
+       #Main #main2{
+            border: 2px solid red;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 15px; 
+            padding-top:15px;
+            padding-bottom: 20px;
+            padding-left: 10px;  
+       }
+
+       #Main #main3{
+            background-color:rgb(228, 228, 228);
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 30px;
+            /* border-radius: 5px; */
+       }
+       #Main #main3 h4{
+            color: rgb(74, 3, 3);
+            margin-left: 10px;
+       }
+
+       #Main #main4{
+            border: 2px solid red;
+            margin-left: 15px;
+            margin-right: 15px;
+            /* margin-top: 15px;  */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+       }
+       #Main #main5{
+            background-color:rgb(228, 228, 228);
+            margin-top: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 30px;
+            border-radius: 5px;
+       }
+       #Main #main5 h4{
+            color: rgb(74, 3, 3);
+            margin-left: 10px;
+       }
+
+       #Main #main6{
+            border: 2px solid red;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+       }
+       #Main #main7{
+            border: 2px solid red;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+           
+       }
+       #Main #main70{
+            padding-left: 10px;
+            margin-top: -10px;
+            color: hsl(223, 100%, 50%);
+       }
+       #Main #main7 .main70{
+            background-color:rgb(228, 228, 228);
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+            height: 30px;
+            border-radius: 5px;
+
+       }
+       #Main #main7 .main70 .main71{
+            color:rgb(74, 3, 3);
+            margin-left: 10px;
+       }
+       #Main #main7 .main70 .main711{
+            color: rgb(74, 3, 3);
+            text-align-last: right;
+            margin-top: -35px;
+            margin-right: 10px;
+       }
+       #Main .main700{
+            margin-left: 10px;
+            margin-right: 10px;
+       }
+       #Main #main8{
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;  
+       }
+       #Main #main8 .bt1{
+           background-color: red;
+           color: white;
+           font-size: medium;
+           font-style: oblique;
+          
+       }
+       #Main #main8 .bt2{
+            background-color: green;
+            color: white;
+            font-size: medium;
+            font-style: oblique;
+       }
+    </style>
+</head>
+<body>
+    <form action=""> 
+            <header>
+                <div >
+                    <img src="http://norcet5.aiimsexams.ac.in/Images/CollegeLogo.jpg" height="40" width="40">
+                    <h2>All India Institute Of Medical Sciences</h2>
+                </div>
+                <span>
+                    <h3>Toll Free Number: 1800117898,(Timings: 9:30 AM to 5:00 PM - Monday to Friday & 09:30 AM to 01:00 PM - Saturday)</h3>
+                </span>
+            </header>
+           
+            <div id="Main">
+                <div id="main1">
+                    <div class="main1"><h4>Registration Form</h4></div>
+                     <div class="main11"><h5>All fields are mandatory except (#) marked fields.</h5></div>
+                </div>
+
+                <div id="main2">
+                     <table>
+                        <tr>
+                            <td> Applying For: </td>
+                            <td>
+                                <select >
+                                    <option option type="text" placeholder="--Select--" size="15">--Select--</option>
+                                    <option value="Nursing Officer Recuritment Common Eligibility Test(NORCET-5)">Nursing Officer Recuritment Common Eligibility Test(NORCET-5)</option>
+                                 </select>
+                            </td>
+                        </tr>
+                     </table>
+                </div>
+
+                <div id="main3">
+                        <h4>Personal Details</h4>
+                </div>
+
+                <div id="main4">
+                        <table>
+                            <tr>
+                                <div><span class="4">(Enter Full Name as recorded in Secondary School Leaving Certificate or equivalent examination.)</span></div>
+                                <td><label>Full Name:</label></td>
+                                <td><input type="text" placeholder="Enter Your Full Name"></td>
+                                <td><label>Re enter Full Name:</label></td>
+                                <td><input type="text" placeholder="Re Enter Your Full Name"></td>
+                            </tr>
+
+                            <tr>
+                                <!-- <th>(Do not add salutation for Father’s/Mother’s name.)</th> -->
+                                <td>Father's Name:</td>
+                                <td><input type="text" placeholder="Enter Father Name "></td>
+                                <td>Mother's Name:</td>
+                                <td><input type="text" placeholder="Enter Mother Name"></td>
+
+                            </tr>
+
+                            <tr>
+                               <!-- <th>(All OBC Creamy Layer Candidate will be consider as General)</th> -->
+                                <td>Category:</td>
+                                <td><input type="radio" name="s" value="SC">SC</td>
+                                <td><input type="radio" name="s" value="ST">ST</td>
+                                <td><input type="radio" name="s" value="OBC(NCL)">OBC(NCL)</td>
+                                <td><input type="radio" name="s" value="General">General</td>
+                                <td><input type="radio" name="s" value="EWS">EWS</td>
+
+                                <td>Confirm Category:</td>
+                                <td><input type="radio" name="s" value="SC">SC</td>
+                                <td><input type="radio" name="s" value="ST">ST</td>
+                                <td><input type="radio" name="s" value="OBC(NCL)">OBC(NCL)</td>
+                                <td><input type="radio" name="s" value="General">General</td>
+                                <td><input type="radio" name="s" value="EWS">EWS</td>
+                            </tr>
+
+                            <tr>
+                                <td>Are you in the category of PWBD :</td>
+                            <!-- (Persons with benchmark disability as per the rights of persons with disability act, 2016) -->
+                                <td><input type="radio" name="s" value="Yes">Yes</td>
+                                <td><input type="radio" name="s" value="No">No</td> 
+                                
+                                <td>Nationality:</td>
+                                <td><input type="radio" name="s" value="Indian">Indian</td>
+                            </tr>
+
+                            <tr>
+                                <td>ID Proof:</td>
+                                <td><select>
+                                        <option option type="text" placeholder="--Select--" size="15">--Select--</option>
+                                        <option value="Adhar Card">Adhar Card</option>
+                                        <option value="Driving Licence">Driving Licence</option>
+                                        <option value="PAN Card">PAN Card</option>
+                                        <option value="Passport">Passport</option>
+                                        <option value="Voter ID/EPIC Card">Voter ID/EPIC Card</option>
+                                    </select>
+                                <td>ID No.:</td>
+                                <td><input type="text" placeholder="ID Number"></td>
+                                </td>
+                            </tr>
+
+                            <tr>
+                               <!-- <th>(Please bring along this ID Proof in Original at the time of Examination)</th> -->
+                                <td>Place of Issue:</td>
+                                <td><input type="text" placeholder="Enter Place of Issue:"></td>
+                                <td>Issue Date:</td>
+                                <td><input type="date" ></td>
+                            </tr>
+
+                            <tr>
+                                <td>Valid Till:</td>
+                                <td><input type="date"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Are you a Government Employee ?:</td>
+                                <td><input type="radio" name="s" value="Yes">Yes</td>
+                                <td><input type="radio" name="s" value="No">No</td>
+                            </tr>
+
+                            <tr>
+                                <td>Name of Institution/<br>Organisation :</td>
+                                <td><input type="text" placeholder="Enter Name of Institution"></td>
+                            
+                                <td>Type of Organisation :</td>
+                                <td>
+                                    <select>
+                                        <option value="--Select--">--Select--</option>
+                                        <option value="Central Government">Central Government</option>
+                                        <option value="State Government">State Government</option>
+                                        <option value="Central Government Autonomous">Central Government Autonomous</option>
+                                        <option value="State Government Autonomous">State Government Autonomous</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Type of Job Status:</td>
+                                <td>
+                                    <select>
+                                        <option value="--Select--">--Select--</option>
+                                        <option value="Regular">Regular</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>Are you a Ex-Service men?:</td>
+                                <td><input type="radio" name="s" value="Yes">Yes</td>
+                                <td><input type="radio" name="s" value="No">No</td>
+                            </tr>
+
+                            <tr>
+                               <!-- <th>(Fill in your date of birth as recorded in Secondary School Leaving Certificate or equivalent examination.
+                                             Date of Birth should be in 'dd/mm/yyyy' format.)</th> -->
+                                <td>Date of Birth:</td>
+                                <td><input type="date"></td>
+
+                                <td>Confirm Date of Birth:</td>
+                                <td><input type="date"></td>
+                            </tr>
+
+                            <tr>
+                                <td>Gender:</td>
+                                <td><input type="radio" name="s" value="Male">Male</td>
+                                <td><input type="radio" name="s" value="Female">Female</td>
+                                <td><input type="radio" name="s" value="TransGender">TransGender</td>
+                            </tr>
+                        </table>
+                </div>
+
+                <div id="main5">
+                    <h4>Contact Details</h4>
+                </div>
+
+                <div id="main6">
+                    <table>
+                        <!-- <div><span>(Your Email ID and Mobile Number will be used for Communication and Notification through SMS and E-mail)</span></div> -->
+                        <tr>
+                            <td>Email ID:</td>
+                            <td><input type="text" placeholder="Enter Your E-mail Id"></td>
+                            <td>Confirm Email ID:</td>
+                            <td><input type="text" placeholder="Confirm Your Email ID:"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Mobile No.:</td>
+                            <td>+91<input type="text" placeholder="Enter Your Mobile No"></td>
+                            <td>Confirm Mobile No.:</td>
+                            <td>+91<input type="text" placeholder="Confirm Your Mobile No.:"></td>
+                        </tr>
+
+                        <tr>
+                            <!-- <span>Please enter your 10 digit mobile number only. Don't add "0" or "+91" before it. For Landline number please enter the "STD" code of that area.</span> -->
+                            <td>Alternate Number:</td>
+                            <td><input type="text" placeholder="Enter Alternate Number:"></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div id="main7">
+                    <div id="main70">
+                      <h4>Note:Full Name, Date of Birth, Category, Persons with Disability, EmailId and Mobile No. cannot be changed once payment of Registration fee is done.</h4>
+                    </div>
+                    <div class="main70">
+                        <div class="main71"><h4>DECLARATION OF ELIGIBILITY:</h4></div>
+                        <div class="main711"><h4>Kindly read the declaration carefully and give consent on it</h4></div>
+                    </div>
+                       
+                    <div class="main700">
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" ></td>
+                                <td><h3>I, hereby declare that the information filled in the form is correct and true to best of my knowledge. I further declare that I understand and fullfill the eligibility condition for Recruitment to the Post of Nursing Officer (NORCET-5) as mention in the Advertisement.</h3></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div id="main8">
+                         <a href="AIIMSDataSave1.html"><input type="button" value="Save & Exit" class="bt1"></a>
+                         <a href="AIIMSQualification.html"><input type="button" value="Save & Proceed" class="bt2"></a>
+                
+                </div>
+
+            </div>
+     </form>  
+</body>
+</html>
